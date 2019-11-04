@@ -19,8 +19,6 @@ app.app_context().push()
 
 manager = Manager(app)
 
-manager.add_command('db', MigrateCommand)
-
 @manager.command
 def run():
     """This function runs the app"""
