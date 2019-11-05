@@ -47,6 +47,7 @@ The serve will expose the api in port 5000, the only endpoint available is:
   If one of the parameters are missing you will receive a 422 response code.
 
 Limitations:
-For now is only working with JPG, because PNG and GIF have a differente color scale than RGB.
-I didn't created tests, should test service methods and create an integration test
+
+For now is only working with JPG, because PNG and GIF have a differente color scale.
+I didn't create tests, should test service methods and create an integration test.
 The parameters validation should be done by restplus and documented with swagger. The endpoint is documented, params not.
